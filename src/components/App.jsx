@@ -4,7 +4,7 @@ import { Statistics } from 'components/Statistics/Statistics';
 import { Section } from 'components/Section/Section';
 import { Notification } from './Notification/Notification';
 
-class App extends Component {
+export class App extends Component {
   state = {
     good: 0,
     neutral: 0,
@@ -68,5 +68,3 @@ class App extends Component {
     );
   }
 }
-
-export { App };
