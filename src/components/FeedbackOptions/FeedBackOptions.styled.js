@@ -12,4 +12,5 @@ export const OptionsButton = styled.button`
   font-weight: 600;
   font-size: 24px;
   cursor: pointer;
+  text-transform: capitalize;
 `;

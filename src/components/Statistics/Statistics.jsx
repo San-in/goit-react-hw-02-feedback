@@ -22,10 +22,10 @@ export const Statistics = ({
           <p>Bad: {bad}</p>
         </li>
         <li>
-          <p>Total: {total()}</p>
+          <p>Total: {total}</p>
         </li>
         <li>
-          <p>Positive feedback: {positivePercentage()}</p>
+          <p>Positive feedback: {positivePercentage}</p>
         </li>
       </ul>
     </>
